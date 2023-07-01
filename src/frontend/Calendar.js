@@ -54,7 +54,7 @@ const Calendar = () => {
      // 2022,
      // 2023,
    ];
-for (let i = 1990; i <= 2030; i++) {
+for (let i = 2030; i >= 1900; i--) {
     numberOfYears.push(i);
       }
    const handleChange = (event) => {
