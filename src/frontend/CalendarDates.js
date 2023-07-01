@@ -51,7 +51,10 @@ const CalendarDates = ({selectedDate}) => {
                if (index < spaceArray.length && attendanceData[i]) {
                   return <li key={index}></li>;
                }
-               // ###############3
+              else if (index < spaceArray.length && !attendanceData[i]) {
+                  return <li key={index}></li>;
+               }
+               // #################
                else if (index >= spaceArray.length && attendanceData[i]) {
                   if (elem == attendanceData[i].date && attendanceData[i].record) {
                      i++;
