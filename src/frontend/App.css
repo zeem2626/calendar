@@ -55,6 +55,7 @@ html{
 .calendar_container{
     display: flex;
     flex-direction: column;
+    /* height: 40rem; */
     /* border: 3px solid green; */
 
 }
@@ -66,7 +67,9 @@ html{
 }
 .calendar_body{
     /* border: 3px solid blue; */
-    width: 95%;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    width: 90%;
     max-width: 42rem;
     display: flex;
     flex-direction: column;
@@ -86,7 +89,8 @@ html{
 } 
 
 .calendar_dates ul{
-    height: 22rem;
+    /* border: 3px solid blue; */
+    height: 24rem;
     /* font-weight: 500; */
 }
 
