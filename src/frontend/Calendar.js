@@ -110,7 +110,7 @@ const Calendar = () => {
 
          <div className="calendar_container">
             <div className="calendar_body">
-               <h4>{warn}</h4>
+               <p className="warning">{warn}</p>
                <header className="calendar_header">{`${selectedDate.monthName} ${selectedDate.year}`}</header>
                <Days />
 
