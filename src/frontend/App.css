@@ -6,7 +6,10 @@
 html{
     font-size: 10px;
 }
-
+.warning{
+    font-size: 2.2rem;
+    color: #03424c;
+}
 .input_value{
     width: 70%;
     max-width: 35rem;
