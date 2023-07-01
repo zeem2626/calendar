@@ -14,8 +14,6 @@ const App = () => {
         <Calendar />
       </AttendanceContextProvider >
 
-      //<CalendarMonthInfo2 years="2023" months="7" />
-
   </div>
   )
 }
