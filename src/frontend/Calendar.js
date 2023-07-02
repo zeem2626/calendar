@@ -27,18 +27,11 @@ const Calendar = () => {
       "Nov",
       "Dec",
    ];
-   const numberOfYears = [
-      "Year",
-      2015,
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021,
-      2022,
-      2023,
-   ];
+   
+   const numberOfYears = ["Year"];
+   for(let i=2030; i>=1900; i--){
+      numberOfYears.push(i)
+   }
 
    const handleChange = (event) => {
       const { name, value } = event.target;
